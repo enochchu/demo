@@ -11,3 +11,6 @@ build-hello-world:
 
 test-compile:
 	clang hello.c -fsyntax-only
+
+test-compile-hello-world:
+	clang hello-world.c -fsyntax-only
