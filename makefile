@@ -9,6 +9,8 @@ build:
 build-hello-world:
 	clang hello-world.c -o hello.exe
 
+test: test-compile
+
 test-compile:
 	clang hello.c -fsyntax-only
 
